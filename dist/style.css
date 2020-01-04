@@ -1,0 +1,28 @@
+body{
+  background-image:url('https://pbs.twimg.com/profile_images/1124372495820214274/tQMPhlOO_400x400.png');
+}
+
+
+img {
+  width:220px;
+  height:260px;
+  margin-left:10px;
+}
+.carousel img {
+		width: 100%;
+	}
+
+	@include media($tablet) {
+		img {
+			width: 40%;
+			display: inline-block;
+		}
+	}
+
+	@include media($desktop) {
+		img {
+			width: 40%;
+			display: inline-block;
+		}
+	}
+}
